@@ -70,7 +70,7 @@
   <script src="js/contracts/all.js"></script>
   <script>
     // THIS NEEDS to match your Ganache localhost
-    let web3 = new Web3(Web3.givenProvider || "ws://localhost:8545");
+    let web3 = new Web3(Web3.givenProvider || "ws://localhost:7545");
 
 
     async function startApp() {
@@ -180,7 +180,7 @@
       }
 
 
-      document.getElementById('interactionTest').onclick = talkWithContract;
+      document.getElementById('interactionTest').onclick = talkWithContract; //we were supposed to do something with this line
 
       async function talkWithContract() {
         // Eth Contract takes the ABI

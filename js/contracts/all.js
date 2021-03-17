@@ -1,7 +1,7 @@
 // Grab the contract application binaray interface from
 // http://remix.ethereum.org/#optimize=false&runs=200&evmVersion=null&version=soljson-v0.7.4+commit.3f05b770.js
 // Go to Solidity Compiler -> Compile -> Compilation Details -> Contract ABI
-var AdvTopicsAddress = "0x71DeDeA117Fa2a2E47F81186b3500cD9796613Ff";
+var AdvTopicsAddress = "0xaEeFfB7DF417a2fAEf0a4278CE49088796Fdf88E";
 var AdvTopicsContractABI = [
 	{
 		"inputs": [
